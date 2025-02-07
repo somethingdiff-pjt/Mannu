@@ -1,80 +1,44 @@
-*{
-    background-color: black;
-    scroll-snap-type: y mandatory;
+body{
+    background-image: url(bg1.jpg);
+    background-size: cover;
 }
-div{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    display: inline-block;
+.container{
+    margin: 0 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
-.box1{
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+h1{
+    height: fit-content;
+    width: 100%;
+    color: rgb(177, 175, 175);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    animation: head 0.75s ease-in-out 1s infinite;
 }
-.box2{
-    height: 100px;
-    width: 100px;
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: all ease-in-out 0.5s;
 }
-.box3{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+.container img:hover{
+    width: 25%;
 }
-.box4{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-.box5{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-.box6{
-    height: 100px;
-    width: 100px;
-}
-.box7{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-.box8{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-.box9{
-    height: 100px;
-    width: 100px;
-}
-.box10{
-    height: 100px;
-    width: 100px;
-}
-.box11{
-    height: 100px;
-    width: 100px;
-}
-.box12{
-    height: 100px;
-    width: 100px;
-}
-.box13{
-    height: 100px;
-    width: 100px;
-}
-.box14{
-    height: 100px;
-    width: 100px;
-}
-.box15{
-    height: 100px;
-    width: 100px;
-}
-.box16{
-    height: 100px;
-    width: 100px;
+@keyframes head {
+    0%{
+        color: rgb(255, 255, 255);
+    }
+    50%{
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        color: rgb(177, 175, 175);
+    }
 }
