@@ -1,0 +1,80 @@
+*{
+    background-color: black;
+    scroll-snap-type: y mandatory;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+}
+.box1{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box6{
+    height: 100px;
+    width: 100px;
+}
+.box7{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box8{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box9{
+    height: 100px;
+    width: 100px;
+}
+.box10{
+    height: 100px;
+    width: 100px;
+}
+.box11{
+    height: 100px;
+    width: 100px;
+}
+.box12{
+    height: 100px;
+    width: 100px;
+}
+.box13{
+    height: 100px;
+    width: 100px;
+}
+.box14{
+    height: 100px;
+    width: 100px;
+}
+.box15{
+    height: 100px;
+    width: 100px;
+}
+.box16{
+    height: 100px;
+    width: 100px;
+}
